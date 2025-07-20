@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angger Pratamadhita - Personal Landing Page</title>
+    <!-- Load Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="text-gray-800 flex flex-col min-h-screen">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed bg-black shadow-sm p-4 top-0 z-50 h-dvh w-[50px] hidden md:block">
+        <div class="flex flex-col items-center justify-center h-full space-y-8">
+            <a href="/"
+                class="text-gray-300 hover:text-black hover:bg-white rounded-full p-2 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M4 21V9l8-6l8 6v12h-6v-7h-4v7z" />
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content Area - Detailed Blog Post -->
+    <main class="container mx-auto px-4 py-12 flex-grow max-w-4xl">
+        <!-- Back to Blog Link -->
+        <div class="mb-8">
+            <a href="/" class="text-black hover:underline flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                        clip-rule="evenodd" />
+                </svg>
+                Back to ME
+            </a>
+        </div>
+
+        <!-- Featured Image -->
+
+        <!-- Post Title and Meta -->
+        <h1 class="text-4xl md:text-5xl font-extrabold text-black mb-4 leading-tight">Project E LKPJ Pemprov Jatim</h1>
+        <p class="text-gray-600 text-lg mb-8">
+            <span class="font-medium">By Angger Pratamadhita</span> on July 20, 2025
+        </p>
+
+        <!-- Blog Post Content -->
+        <!-- Blog Post Content -->
+        <div class="blog-content text-gray-700 text-lg leading-relaxed">
+            <p>
+                This project is a web application developed for the East Java Provincial Government of Indonesia, 
+                specifically for the "Biro Otonomi Daerah" (Regional Autonomy Bureau). 
+                Its main purpose is to streamline and facilitate the reporting process of performance and activities 
+                from all "OPD" (Regional Government Organizations) across East Java. 
+                By digitizing the reporting workflow, the application helps ensure transparency, accountability, 
+                and efficiency in government operations, making it easier for the bureau to monitor, evaluate, 
+                and manage the performance data submitted by each OPD.
+                <br> link : <a href="https://lkpj.jatimprov.go.id/" target="_blank">https://lkpj.jatimprov.go.id/</a>
+            </p>
+
+            <h2>Key Feature</h2>
+            <p>
+                The application offers several essential features, including secure user authentication, 
+                role-based access for different OPDs, dynamic custom table input for flexible data entry, 
+                real-time validation, and a comprehensive dashboard for data recapitulation and analysis. 
+                These features are designed to simplify the reporting process, improve data accuracy, 
+                and provide actionable insights for government administrators.
+            </p>
+            <h3>Custom Table Input</h3>
+            <div class="grid grid-cols-2 gap-2 mb-2">
+                <img src="/images/projects/lkpj/customtable1.png" alt="">
+                <img src="/images/projects/lkpj/customtable2.png" alt="">
+            </div>
+            <p>
+                The application's main feature is a custom table that allows users to easily input and manage data related to 
+                the performance and activities of each OPD. This table is designed to be user-friendly, enabling 
+                quick data entry and retrieval, which is essential for efficient reporting and analysis. 
+                Additionally, the custom table supports specific user access for each OPD, ensuring that users can only view and 
+                manage data relevant to their own organization. This access control enhances data security and streamlines the workflow for each OPD.
+            </p>
+            <h3>Recapitulation Dashboard</h3>
+            <div class="grid grid-cols-2 gap-2 mb-2">
+                <img src="/images/projects/lkpj/rekapitulation.png" alt="">
+                <img src="/images/projects/lkpj/rekapitulationdashboard.png" alt="">
+            </div>
+            <p>
+                The recapitulation dashboard serves as a centralized summary of all data entries submitted through the dynamic custom tables by each OPD. 
+                It aggregates and visualizes key metrics, allowing administrators and stakeholders to quickly review overall performance, identify trends, 
+                and compare results across different organizations. This feature streamlines the evaluation process by presenting consolidated data in an accessible format, 
+                supporting informed decision-making and more effective monitoring of government activities.
+            </p>
+
+            <h2>Web Tech Stack</h2>
+            <p>
+                The application is built using a modern web technology stack to ensure scalability, flexibility, and a seamless 
+                user experience. The frontend leverages <strong>NuxtJS</strong> for server-side rendering and efficient routing, 
+                combined with <strong>Bootstrap 5</strong> for responsive and consistent UI components. On the backend, <strong>Express JS</strong> 
+                is used as the web server framework, written in <strong>TypeScript</strong> to provide type safety and maintainable code. 
+                Data is stored in <strong>MongoDB</strong>, which enables fully custom and dynamic table input, allowing users to define and manage 
+                flexible data structures as needed. This stack empowers the application to handle complex data entry requirements while maintaining high performance and reliability.
+            </p>
+        </div>
+        <a href="/"
+            class="bg-black text-white hover:bg-gray-700 font-bold py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105 inline-block mb-4">
+            Back to ME
+        </a>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center px-4">
+            <p>&copy; 2025 Angger Pratamadhita Wibawa. All rights reserved.</p>
+            <span class="text-sm font-light">Build With Tailwind CSS</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>

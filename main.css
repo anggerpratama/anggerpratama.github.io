@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
+    /* Light blue-gray background */
+}
+
+/* Custom scrollbar for a cleaner look */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e2e8f0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #94a3b8;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+/* Custom CSS for project image hover effect */
+.project-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 0.5rem;
+    /* Match parent rounded-lg */
+    text-align: center;
+    padding: 1rem;
+}
+
+.project-card:hover .overlay {
+    opacity: 1;
+}
+
+/* Basic styling for content within the blog post for better readability */
+.blog-content h2,
+.blog-content h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #0f172a;
+    /* Indigo-700 */
+}
+
+.blog-content h2 {
+    font-size: 2.25rem;
+    /* text-3xl */
+}
+
+.blog-content h3 {
+    font-size: 1.875rem;
+    /* text-2xl */
+}
+
+.blog-content p {
+    margin-bottom: 1rem;
+    line-height: 1.75;
+    /* leading-relaxed */
+}
+
+.blog-content ul,
+.blog-content ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    list-style-type: disc;
+}
+
+.blog-content ol {
+    list-style-type: decimal;
+}
+
+.blog-content li {
+    margin-bottom: 0.5rem;
+}
+
+.blog-content a {
+    color: #4f46e5;
+    /* indigo-600 */
+    text-decoration: underline;
+}
+
+.blog-content blockquote {
+    border-left: 4px solid #a5b4fc;
+    /* indigo-300 */
+    padding-left: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+    color: #475569;
+    /* slate-600 */
+}

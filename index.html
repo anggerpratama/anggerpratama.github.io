@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angger Pratamadhita - Personal Landing Page</title>
+    <!-- Load Tailwind CSS -->
+    <link href="./dist/output.css" rel="stylesheet">
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="text-gray-800">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed bg-black shadow-sm p-4 top-0 z-50 h-dvh w-[50px] hidden md:block">
+        <div class="flex flex-col items-center justify-center h-full space-y-8">
+            <a href="#hero"
+                class="text-gray-300 hover:text-black hover:bg-white rounded-full p-2 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M4 21V9l8-6l8 6v12h-6v-7h-4v7z" />
+                </svg>
+            </a>
+            <a href="#about"
+                class="text-gray-300 hover:text-black hover:bg-white rounded-full p-2 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M11 17h2v-6h-2zm1-8q.425 0 .713-.288T13 8t-.288-.712T12 7t-.712.288T11 8t.288.713T12 9m0 13q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22" />
+                </svg>
+            </a>
+            <a href="#projects"
+                class="text-gray-300 hover:text-black hover:bg-white rounded-full p-2 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M13 9V3h8v6zM3 13V3h8v10zm10 8V11h8v10zM3 21v-6h8v6z" />
+                </svg>
+            </a>
+            <a href="#experience"
+                class="text-gray-300 hover:text-black hover:bg-white rounded-full p-2 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
+                    <path fill="currentColor"
+                        d="M6.5 2A1.5 1.5 0 0 0 5 3.5v13A1.5 1.5 0 0 0 6.5 18h7a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 13.5 2zM9 14h2a.5.5 0 0 1 0 1H9a.5.5 0 0 1 0-1" />
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Updated to match the provided image layout -->
+    <section id="hero" class="flex flex-col md:flex-row min-h-screen-75 border-b-2 border-black">
+        <!-- Left: Image Section -->
+        <div class="md:w-1/2 bg-cover bg-center items-center justify-center p-4 h-200 hidden md:flex"
+            style="background-image: url('./images/bghome.jpg');">
+            <!-- Using a placeholder image that resembles a scenic view -->
+            <div class="hidden md:block w-full h-full"></div> <!-- Placeholder to ensure height -->
+        </div>
+
+        <!-- Right: Content Section -->
+        <div
+            class="md:w-1/2 bg-white flex flex-col items-center md:items-start justify-center p-8 md:p-16 text-gray-800 h-dvh md:h-200">
+            <span>@anggerpratamadhita</span>
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight text-center md:text-left">
+                FROM CLARITY<br><span class="text-white bg-black px-4">TO IMPACT</span>
+            </h1>
+            <p class="text-lg md:text-xl mb-8 text-center md:text-left max-w-md my-7">
+                <span class="italic">"Change the world by starting with one small choice."</span>
+            </p>
+            <div class="flex space-x-2 mb-4">
+                <a href="https://www.instagram.com/anggerpratamadhita?igsh=bWNmMnl1cG91b3h2 " target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+                    </svg>
+                </a>
+                <a href="mailto:anggerpw334@gmail.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2zm-2 0l-8 5l-8-5zm0 12H4V8l8 5l8-5z" />
+                    </svg>
+                </a>
+                <a href="https://github.com/anggerpratama" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/angger-pratamadhita-0391a0167" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z" />
+                    </svg>
+                </a>
+            </div>
+            <a href="https://wa.me/6281357453035" target="_blank"
+                class="bg-black text-white hover:bg-gray-700 font-bold py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105 inline-block mb-4">
+                REACH OUT
+            </a>
+
+        </div>
+    </section>
+
+    <!-- About Section - Now text-only -->
+    <section id="about" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-black">About Me</h2>
+            <div class="md:flex">
+                <div class="w-full md:w-1/4 flex justify-center items-center">
+                    <img src="./images/anggerphoto.jpg" alt="Your Photo"
+                        class="rounded-full border-4 border-black w-60 h-60 mb-7 md:mb-0">
+                </div>
+                <div class="w-full md:w-3/4 text-lg leading-relaxed text-gray-700 text-left md:ml-7">
+                    <p class="mb-4">Hello! I'm Angger Pratamadhita, a passionate Fullstack Web Developer based in
+                        Indonesia.
+                        I thrive on building robust and dynamic web applications from concept to deployment, ensuring
+                        seamless user experiences and efficient backend operations.</p>
+                    <p class="mb-4">My core expertise lies in a versatile tech stack, including Nuxt.js for crafting
+                        intuitive front-end interfaces, and a strong command over Node.js and Express.js for powerful
+                        backend development. I'm proficient in TypeScript, ensuring scalable and maintainable codebases.
+                        For
+                        databases, I'm well-versed in PostgreSQL, MySQL, and MongoDB, and I have extensive experience in
+                        designing and implementing REST APIs. My skills also extend to traditional web development with
+                        PHP
+                        and Laravel.</p>
+
+                </div>
+            </div>
+            <div class="text-lg leading-relaxed text-gray-700 text-left">
+                <p class="mb-4">Beyond my primary stack, I've also gained valuable experience with C# .NET Core and MS
+                    SQL Server,
+                    further broadening my capabilities in enterprise-level application development. I am a firm believer
+                    in continuous learning and eagerly embrace new technologies and frameworks to stay at the forefront
+                    of the ever-evolving web development landscape.</p>
+                <p class="mb-4">
+                    When I'm not immersed in code, you'll often find me unwinding through gaming, which helps me
+                    maintain a fresh perspective and fuels my creativity. I'm always excited to tackle new challenges
+                    and collaborate on innovative projects!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Projects Section - Replaced Skills with Project Grid -->
+    <section id="projects" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-black">
+                Highlight Projects
+            </h2>
+            <div class="text-center mb-12">Click for More Detail of Highlight Projects</div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                <!-- Project Card 1 -->
+                <a href="./projects/lkpj-prov-jatim.html" class="relative shadow-md overflow-hidden group project-card">
+                    <img src="./images/projectlkpj.png" alt="Project 1"
+                        class="w-full h-65 object-cover transition duration-300 group-hover:scale-105">
+                    <div class="overlay cursor-pointer">
+                        <h3 class="text-xl font-semibold mb-2">Project LKPJ</h3>
+                        <p class="text-sm px-4">
+                            Developed a comprehensive web application for managing local government performance reports,
+                            enhancing transparency and accountability.
+                        </p>
+                    </div>
+                </a>
+                <!-- Project Card 2 -->
+                <a href="./projects/simasker-prov-jatim.html" class="relative shadow-md overflow-hidden group project-card">
+                    <img src="./images/projectsimasker.png" alt="Project 2"
+                        class="w-full h-65 object-cover transition duration-300 group-hover:scale-105">
+                    <div class="overlay cursor-pointer">
+                        <h3 class="text-xl font-semibold mb-2">Project Simasker</h3>
+                        <p class="text-sm px-4">
+                            Built a government collaboration management system to streamline and monitor inter-agency
+                            agreements,
+                            improving efficiency and coordination in public sector partnerships.
+                        </p>
+                    </div>
+                </a>
+                <!-- Project Card 3 -->
+                <a href="./projects/mojosadean-pemkot-mojokerto.html" class="relative shadow-md overflow-hidden group project-card">
+                    <img src="./images/projectmojosadean.png" alt="Project 3"
+                        class="w-full h-65 object-cover transition duration-300 group-hover:scale-105">
+                    <div class="overlay cursor-pointer">
+                        <h3 class="text-xl font-semibold mb-2">Project Mojosadean</h3>
+                        <p class="text-sm px-4">
+                            Created a local-based online marketplace platform for the Mojosadean government,
+                            empowering small businesses and residents to buy and sell products digitally within their
+                            community.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Timeline -->
+
+    <section id="experience" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-black">Experience</h2>
+            <ol class="relative border-s border-gray-200 ">
+                <li class="mb-10 ms-6">
+                    <span
+                        class="absolute flex items-center justify-center w-6 h-6 bg-gray-100 rounded-full -start-3 ring-2 ring-black">
+                        <svg class="w-2.5 h-2.5 text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                        </svg>
+                    </span>
+                    <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 ">Technolgy Leader<span
+                            class="bg-gray-200 text-black text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm ms-3">Current</span>
+                    </h3>
+                    <time class="block mb-2 text-sm font-normal leading-none text-gray-400">Jun 2023 - Present
+                        [Freelance] at <a href="https://rodiginesia.com/" class="hover:text-black hover:underline"
+                            target="_blank">PT RONIN DIGINARA INDONESIA</a></time>
+                    <p class="mb-4 text-base font-normal text-gray-500 ">
+                        As a Technology Leader at PT Ronin Diginara Indonesia, I am responsible for guiding the
+                        technical direction of multiple web projects,
+                        ensuring best practices in architecture, code quality, and deployment. Working remotely with a
+                        flexible schedule,
+                        I collaborate closely with cross-functional teams to deliver scalable solutions, mentor
+                        developers, and drive innovation in our technology stack to meet evolving business needs.
+                    </p>
+                    <!-- // list project  -->
+                    <div class="grid grid-cols-2 lg:grid-cols-5 gap-3">
+                        <!-- Project Card 1 -->
+                        <div class="relative shadow-md">
+                            <img src="./images/projectlkpj.png" alt="Project 1"
+                                class="w-full h-30 object-cover transition duration-300 group-hover:scale-105">
+                        </div>
+                        <!-- Project Card 2 -->
+                        <div class="relative shadow-md">
+                            <img src="./images/projectsimasker.png" alt="Project 2"
+                                class="w-full h-30 object-cover transition duration-300 group-hover:scale-105">
+                        </div>
+                        <!-- Project Card 3 -->
+                        <div class="relative shadow-md">
+                            <img src="./images/projectmojosadean.png" alt="Project 3"
+                                class="w-full h-30 object-cover transition duration-300 group-hover:scale-105">
+                        </div>
+                        <!-- Project Card 4 -->
+                        <div class="relative shadow-md">
+                            <img src="./images/projectshopfestmojokerto.png" alt="Project 3"
+                                class="w-full h-30 object-cover transition duration-300 group-hover:scale-105">
+                        </div>
+                    </div>
+
+                </li>
+                <li class="mb-10 ms-6">
+                    <span
+                        class="absolute flex items-center justify-center w-6 h-6 bg-gray-100 rounded-full -start-3 ring-2 ring-black">
+                        <svg class="w-2.5 h-2.5 text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                        </svg>
+                    </span>
+                    <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 ">Full Stack Web
+                        Developer<span
+                            class="bg-gray-200 text-black text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm  ms-3">Current</span>
+                    </h3>
+                    <time class="block mb-2 text-sm font-normal leading-none text-gray-400">Jun 2022 - Present [Freelance]</time>
+                    <p class="mb-4 text-base font-normal text-gray-500">
+                        As a Fullstack Web Developer, I design and build end-to-end web applications using Node.js and
+                        TypeScript for scalable backend services,
+                        and modern JavaScript frameworks for intuitive frontends. My expertise includes working with
+                        both SQL and NoSQL databases such as MongoDB and PostgreSQL,
+                        enabling me to deliver robust, efficient, and maintainable solutions across the entire
+                        technology stack.
+                    </p>
+                    <!-- // list project  -->
+                    <div class="grid grid-cols-2 lg:grid-cols-5 gap-3">
+                        <!-- Project Card 1 -->
+                        <div class="relative shadow-md">
+                            <img src="./images/projectlandingpagecomputech.png" alt="Project 1"
+                                class="w-full h-30 object-cover transition duration-300 group-hover:scale-105">
+                        </div>
+                        <!-- Project Card 2 -->
+                        <div class="relative shadow-md">
+                            <img src="./images/projectganeshabaliprops.png" alt="Project 2"
+                                class="w-full h-30 object-cover transition duration-300 group-hover:scale-105">
+                        </div>
+                    </div>
+                </li>
+                <li class="mb-10 ms-6">
+                    <span
+                        class="absolute flex items-center justify-center w-6 h-6 bg-gray-100 rounded-full -start-3 ring-2 ring-black">
+                        <svg class="w-2.5 h-2.5 text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                        </svg>
+                    </span>
+                    <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 ">
+                        Electronics Repair Shop Owner
+                    </h3>
+                    <time class="block mb-2 text-sm font-normal leading-none text-gray-400">Jul 2021 - Presnet at <a
+                            href="http://computech-mjk.id/" class="hover:text-black hover:underline"
+                            target="_blank">Computech Mojokerto</a></time>
+                    <p class="mb-4 text-base font-normal text-gray-500">
+                        As the owner of Computech Mojokerto, I established and managed a small business specializing in
+                        the repair and maintenance of office electronics, including computers, laptops, and printers.
+                        My responsibilities included diagnosing hardware and software issues, performing component-level
+                        repairs, and providing technical support to local businesses and individuals.
+                        I also handled customer service, inventory management, and business operations, ensuring
+                        reliable and timely solutions that helped clients maintain productivity in their workplaces.
+                    </p>
+                </li>
+                <li class="mb-10 ms-6">
+                    <span
+                        class="absolute flex items-center justify-center w-6 h-6 bg-gray-100 rounded-full -start-3 ring-2 ring-black">
+                        <svg class="w-2.5 h-2.5 text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                        </svg>
+                    </span>
+                    <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 ">
+                        Backend Developer
+                    </h3>
+                    <time class="block mb-2 text-sm font-normal leading-none text-gray-400">Apr 2019 - Sep 2021 at <a
+                            href="https://dot.co.id/" class="hover:text-black hover:underline" target="_blank">DOT
+                            Indonesia</a></time>
+                    <p class="mb-4 text-base font-normal text-gray-500">
+                        At DOT Indonesia, I contributed as a Backend Developer, focusing on designing and implementing
+                        scalable RESTful APIs and robust backend systems using PHP (Laravel) and MySQL.
+                        My responsibilities included integrating third-party services, optimizing database queries, and
+                        collaborating with frontend teams to deliver seamless user experiences.
+                        I also participated in code reviews and maintained high standards for code quality and
+                        documentation. Additionally, I have experience working on projects using C# .NET Core and MS SQL
+                        Server,
+                        further expanding my backend development expertise for enterprise-level solutions.
+                    </p>
+                    <div class="grid grid-cols-2 lg:grid-cols-5 gap-3">
+                        <!-- Project Card 1 -->
+                        <div class="relative shadow-md">
+                            <img src="./images/projectpamadot.png" alt="Project 1"
+                                class="w-full h-30 object-cover transition duration-300 group-hover:scale-105">
+                        </div>
+                    </div>
+                </li>
+                <li class="mb-10 ms-6">
+                    <span
+                        class="absolute flex items-center justify-center w-6 h-6 bg-gray-100 rounded-full -start-3 ring-2 ring-black">
+                        <svg class="w-2.5 h-2.5 text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                        </svg>
+                    </span>
+                    <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 ">
+                        Intern Backend Developer
+                    </h3>
+                    <time class="block mb-2 text-sm font-normal leading-none text-gray-400">Jul 2018 - Sep 2018 at <a
+                            href="https://dot.co.id/" class="hover:text-black hover:underline" target="_blank">DOT
+                            Indonesia</a></time>
+                    <p class="mb-4 text-base font-normal text-gray-500">
+                        During my internship at DOT Indonesia, I gained hands-on experience in backend development by
+                        assisting in the creation and maintenance of web applications using PHP (Laravel) and MySQL.
+                        I contributed to building RESTful APIs, performed database design and optimization, and
+                        supported the integration of third-party services. This role allowed me to collaborate with
+                        senior developers,
+                        learn best practices in software engineering, and strengthen my problem-solving skills in a
+                        real-world environment.
+                    </p>
+                    <div class="grid grid-cols-2 lg:grid-cols-5 gap-3">
+                        <!-- Project Card 1 -->
+                        <div class="relative shadow-md">
+                            <img src="./images/projectmuslimnesiadot.png" alt="Project 1"
+                                class="w-full h-30 object-cover transition duration-300 group-hover:scale-105">
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center px-4">
+            <p>&copy; 2025 Angger Pratamadhita Wibawa. All rights reserved.</p>
+            <span class="text-sm font-light">Build With Tailwind CSS</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>

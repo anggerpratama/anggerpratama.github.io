@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angger Pratamadhita - Personal Landing Page</title>
+    <!-- Load Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="text-gray-800 flex flex-col min-h-screen">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed bg-black shadow-sm p-4 top-0 z-50 h-dvh w-[50px] hidden md:block">
+        <div class="flex flex-col items-center justify-center h-full space-y-8">
+            <a href="/" class="text-gray-300 hover:text-black hover:bg-white rounded-full p-2 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M4 21V9l8-6l8 6v12h-6v-7h-4v7z" />
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content Area - Detailed Blog Post -->
+    <main class="container mx-auto px-4 py-12 flex-grow max-w-4xl">
+        <!-- Back to Blog Link -->
+        <div class="mb-8">
+            <a href="/" class="text-black hover:underline flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                        clip-rule="evenodd" />
+                </svg>
+                Back to ME
+            </a>
+        </div>
+
+        <!-- Featured Image -->
+
+        <!-- Post Title and Meta -->
+        <h1 class="text-4xl md:text-5xl font-extrabold text-black mb-4 leading-tight">Project SIMASKER Pemprov Jatim
+        </h1>
+        <p class="text-gray-600 text-lg mb-8">
+            <span class="font-medium">By Angger Pratamadhita</span> on July 20, 2025
+        </p>
+
+        <!-- Blog Post Content -->
+        <!-- Blog Post Content -->
+        <div class="blog-content text-gray-700 text-lg leading-relaxed">
+            <p>
+                This project is a centralized management application developed specifically for the "Biro Kerjasama" of
+                the East
+                Java Provincial Government, Indonesia. The platform is designed to accommodate and streamline all types
+                of inter-agency
+                and institutional collaborations across the entire East Java region. By providing a unified system, the
+                application
+                enables efficient tracking, documentation, and administration of various cooperation agreements,
+                ensuring that all
+                partnership activities are well-coordinated and accessible in one place. This centralized approach
+                supports better
+                governance, transparency, and ease of monitoring for all collaborative initiatives managed by the
+                provincial government.
+                <br> link : <a href="https://simasker.jatimprov.go.id/" target="_blank">https://simasker.jatimprov.go.id/</a>
+            </p>
+
+            <h2>Key Feature</h2>
+            <p>
+                The SIMASKER application offers a comprehensive suite of features, including dynamic custom form input
+                creation with support for various field types and master data integration, logical grouping of form
+                inputs with configurable workflows and access permissions, granular user access control for enhanced
+                security and tailored user experiences, customizable document flow statuses to support unique approval
+                processes, and an interactive dashboard that delivers real-time insights and key metrics for efficient
+                monitoring and analysis of collaboration activities.
+            </p>
+            <h3>Custom Form Input</h3>
+            <div class="grid grid-cols-2 gap-2 mb-2">
+                <img src="/images/projects/simasker/formbuilder.png" alt="">
+                <img src="/images/projects/simasker/formbuilder2.png" alt="">
+                <img src="/images/projects/simasker/formbuilder3.png" alt="">
+            </div>
+            <p>
+                The main feature of this application is its fully custom form input system, which empowers
+                administrators to design
+                and deploy dynamic forms tailored to the specific needs of each collaboration or agreement. The form
+                builder supports up to 85% of standard form controls, including text fields, numbers, dates, checkboxes,
+                radio buttons, file uploads, and more. <br> <br>
+
+                A standout capability is the ability to add new "select" fields that can dynamically fetch their
+                selection options from master data references. This ensures that dropdown choices remain consistent and
+                up-to-date across the system, streamlining data entry and reducing errors. Administrators can easily
+                configure these select fields to pull options from centralized datasets, making the forms highly
+                adaptable and scalable for various use cases within the provincial government.
+            </p>
+            <h3>Custom Form Group</h3>
+            <div class="grid grid-cols-2 gap-2 mb-2">
+                <img src="/images/projects/simasker/groupformbuilder.png" alt="">
+                <img src="/images/projects/simasker/groupformbuilder2.png" alt="">
+            </div>
+            <p>
+                This feature allows administrators to organize individual form inputs into logical groups, making it
+                easier to
+                manage complex data collection processes. After creating custom form inputs, administrators can use the
+                form
+                group builder to define how these inputs are grouped together, specify the document flow
+                (such as approval steps or review stages), and assign user access permissions for each group.
+                <br> <br>
+
+                By enabling grouping and workflow configuration, this feature ensures that each collaboration or
+                agreement
+                follows a structured process, with clear roles and responsibilities for different users. It streamlines
+                document management, enhances security by controlling access, and supports efficient collaboration
+                across departments.
+            </p>
+
+            <h3>Custom User Access</h3>
+            <div class="grid grid-cols-2 gap-2 mb-2">
+                <img src="/images/projects/simasker/dynamichakakses.png" alt="">
+                <img src="/images/projects/simasker/dynamichakakses2.png" alt="">
+            </div>
+            <p>
+                A core feature of the application is the ability to customize user access at a granular level.
+                Administrators can define specific permissions for each user or user group, controlling access to
+                individual menus and document entries within the system. This means that access to sensitive data,
+                forms, or workflow steps can be restricted based on roles or responsibilities, ensuring that users only
+                see and interact with the information relevant to their duties.
+                <br> <br>
+
+                This dynamic access control not only enhances security but also streamlines the user experience by
+                presenting each user with a tailored interface. Whether managing collaboration agreements, reviewing
+                documents, or configuring forms, every action and menu can be precisely assigned, making the platform
+                highly adaptable to the organizational structure and workflow requirements of the East Java Provincial
+                Government.
+            </p>
+
+            <h3>Custom Document Flow Status</h3>
+            <div class="grid grid-cols-2 gap-2 mb-2">
+                <img src="/images/projects/simasker/dynamicstatus.png" alt="">
+                <img src="/images/projects/simasker/dynamicstatus2.png" alt="">
+            </div>
+            <p>
+                This feature empowers administrators to define and customize the document flow approval statuses for
+                each type of collaboration or agreement. Instead of being limited to a fixed set of status options,
+                administrators can create, edit, and sequence custom statuses that reflect the unique approval processes
+                of their organization. <br> <br>
+
+                For example, a document might progress through statuses such as "Draft," "Submitted," "Under Review,"
+                "Approved by Supervisor," and "Finalized." Each status can be configured with its own label, color, and
+                associated permissions, ensuring that only authorized users can move documents between specific stages.
+                <br> <br>
+
+                This flexibility allows the system to adapt to evolving workflows and organizational requirements,
+                supporting complex approval chains and multi-step reviews. By making the document flow fully
+                configurable, the application ensures transparency, accountability, and precise control over every stage
+                of the approval process.<br> <br>
+            </p>
+
+            <h3>Dashboard Report</h3>
+            <div class="grid grid-cols-2 gap-2 mb-2">
+                <img src="/images/projects/simasker/dashboard.png" alt="">
+            </div>
+            <p>
+                The dashboard report provides a comprehensive overview of all collaboration activities and agreements
+                managed within the system. It features interactive charts and summary widgets that display key metrics
+                such as the number of active agreements, pending approvals, completed collaborations, and user activity
+                statistics. Administrators can filter data by date range, department, or agreement type to gain
+                actionable insights and monitor progress in real time. This centralized reporting tool helps
+                decision-makers quickly identify trends, track performance, and ensure that all processes are running
+                smoothly across the organization.
+            </p>
+
+            <h2>Web Tech Stack</h2>
+            <p>
+                SIMASKER is developed with a robust and flexible web technology stack tailored for dynamic data
+                management and modular workflows. The frontend is built using <strong>NuxtJS</strong>, enabling
+                server-side rendering and smooth navigation, while <strong>Bootstrap 5</strong> ensures a responsive and
+                user-friendly interface. The backend utilizes <strong>Express JS</strong> written in
+                <strong>TypeScript</strong>, providing strong typing and maintainability for complex business logic.
+                <strong>MongoDB</strong> serves as the primary database, supporting highly customizable and dynamic data
+                models—essential for the application's custom form and workflow features. This stack allows SIMASKER to
+                efficiently support evolving requirements, granular access control, and scalable collaboration processes
+                for the East Java Provincial Government.
+            </p>
+        </div>
+        <a href="/"
+            class="bg-black text-white hover:bg-gray-700 font-bold py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105 inline-block mb-4">
+            Back to ME
+        </a>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center px-4">
+            <p>&copy; 2025 Angger Pratamadhita Wibawa. All rights reserved.</p>
+            <span class="text-sm font-light">Build With Tailwind CSS</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
