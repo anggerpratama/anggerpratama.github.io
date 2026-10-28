@@ -1,56 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angger Pratamadhita - Personal Landing Page</title>
-    <!-- Load Tailwind CSS -->
-    <link href="/dist/output.css" rel="stylesheet">
-    <!-- Google Fonts - Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#111110">
+    <meta name="description" content="Mojosadean — A digital home for local businesses, built for the people of Mojokerto. A project by Angger Pratamadhita.">
+    <title>Mojosadean — Angger Pratamadhita</title>
+    <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link href="../dist/output.css" rel="stylesheet">
+    <script src="../site.js" defer></script>
 </head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+        <a class="brand" href="../index.html" aria-label="Angger Pratamadhita, home"><span class="brand-mark">ap<span>·</span></span><span class="brand-name">Angger<br>Pratamadhita</span></a>
+        <nav class="main-nav" aria-label="Main navigation"><a href="../index.html#projects">Selected work <span class="nav-count">03</span></a><a href="../index.html#about">About</a><a href="../index.html#experience">Experience</a></nav>
+        <a class="header-contact" href="../index.html#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="main" class="wrap">
+        <header class="case-header" id="top">
+            <a class="back-link" href="../index.html#projects"><span aria-hidden="true">←</span> Back to selected work</a>
+            <div class="case-title-row"><div><p class="eyebrow">Project 03 / Commerce — Local marketplace</p><h1>Mojosadean</h1><p class="case-subtitle">A digital home for local businesses, built for the people of Mojokerto.</p></div><a class="button button-light" href="https://mojosadean.mojokertokota.go.id/" target="_blank" rel="noopener noreferrer">Visit live website <span aria-hidden="true">↗</span></a></div>
+            <dl class="case-meta"><div><dt>Client</dt><dd>Mojokerto City Government</dd></div><div><dt>Focus</dt><dd>Online marketplace</dd></div><div><dt>Platform</dt><dd>Web application</dd></div></dl>
+            <figure class="case-cover"><img src="../images/projectmojosadean.png" alt="Mojosadean application overview" fetchpriority="high"></figure>
+        </header>
+        <div class="case-layout">
+            <aside class="case-sidebar" aria-label="Project contents"><div><p class="eyebrow">In this project</p><nav aria-label="On this page"><a href="#overview">Overview</a><a href="#features">Key features</a>
+                    <a href="#product-listing">Product Listing</a>
+                    <a href="#seller-dashboard">Seller Dashboard</a>
+                    <a href="#realtime-messaging-chat">Realtime Messaging (Chat)</a>
+                    <a href="#mobile-ready-android">Mobile Ready (Android)</a>
+                    <a href="#stack">Technology stack</a></nav><p class="case-credit">A project by<br>Angger Pratamadhita<br><br>Published July 20, 2025</p></div></aside>
+            <article class="case-content" id="overview" aria-label="Mojosadean project details">
 
-<body class="text-gray-800 flex flex-col min-h-screen">
-
-    <!-- Navigation Bar -->
-    <nav class="fixed bg-black shadow-sm p-4 top-0 z-50 h-dvh w-[50px] hidden md:block">
-        <div class="flex flex-col items-center justify-center h-full space-y-8">
-            <a href="/" class="text-gray-300 hover:text-black hover:bg-white rounded-full p-2 transition duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M4 21V9l8-6l8 6v12h-6v-7h-4v7z" />
-                </svg>
-            </a>
-        </div>
-    </nav>
-
-    <!-- Main Content Area - Detailed Blog Post -->
-    <main class="container mx-auto px-4 py-12 flex-grow max-w-4xl">
-        <!-- Back to Blog Link -->
-        <div class="mb-8">
-            <a href="/" class="text-black hover:underline flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd"
-                        d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                        clip-rule="evenodd" />
-                </svg>
-                Back to ME
-            </a>
-        </div>
-
-        <!-- Featured Image -->
-
-        <!-- Post Title and Meta -->
-        <h1 class="text-4xl md:text-5xl font-extrabold text-black mb-4 leading-tight">Project Online Marketplace
-            MOJOSADEAN Pemkot Mojokerto
-        </h1>
-        <p class="text-gray-600 text-lg mb-8">
-            <span class="font-medium">By Angger Pratamadhita</span> on July 20, 2025
-        </p>
-
-        <!-- Blog Post Content -->
-        <!-- Blog Post Content -->
-        <div class="blog-content text-gray-700 text-lg leading-relaxed">
             <p>
                 This project is an online marketplace application developed specifically for the Government of Mojokerto
                 City, Indonesia. The platform is designed to empower local businesses and MSMEs (Micro, Small, and
@@ -64,10 +49,10 @@
                 that the benefits of digital commerce are accessible to small businesses and entrepreneurs in the
                 region. This initiative not only streamlines the buying and selling process but also strengthens the
                 local economy by connecting consumers directly with Mojokerto's diverse range of goods and services.
-                <br> link : <a href="https://mojosadean.mojokertokota.go.id/" target="_blank">https://mojosadean.mojokertokota.go.id/</a>
+
             </p>
 
-            <h2>Key Feature</h2>
+            <h2 id="features">Key features</h2>
             <p>
                 Mojosadean offers a robust set of features to facilitate local commerce, including comprehensive Product
                 Listing capabilities for MSMEs to showcase their goods, an Intuitive Seller Dashboard for efficient
@@ -75,11 +60,11 @@
                 and sellers, and full Mobile Readiness via a dedicated Android application, ensuring accessibility and a
                 seamless experience on the go.
             </p>
-            <h3>Product Listing</h3>
-            <div class="grid grid-cols-2 gap-2 mb-2">
-                <img src="/images/projects/mojosadean/homepage.png" alt="">
-                <img src="/images/projects/mojosadean/homepage3.png" alt="">
-                <img src="/images/projects/mojosadean/homepage2.png" alt="">
+            <h3 id="product-listing">Product Listing</h3>
+            <div class="screenshot-grid">
+                <a href="../images/projects/mojosadean/homepage.png" data-lightbox aria-label="Enlarge Mojosadean — Product Listing, screen 1"><img src="../images/projects/mojosadean/homepage.png" alt="Mojosadean — Product Listing, screen 1" loading="lazy"></a>
+                <a href="../images/projects/mojosadean/homepage3.png" data-lightbox aria-label="Enlarge Mojosadean — Product Listing, screen 2"><img src="../images/projects/mojosadean/homepage3.png" alt="Mojosadean — Product Listing, screen 2" loading="lazy"></a>
+                <a href="../images/projects/mojosadean/homepage2.png" data-lightbox aria-label="Enlarge Mojosadean — Product Listing, screen 3"><img src="../images/projects/mojosadean/homepage2.png" alt="Mojosadean — Product Listing, screen 3" loading="lazy"></a>
             </div>
             <p>
                 The product listing feature enables sellers to easily add, manage, and display their products within the
@@ -90,12 +75,12 @@
                 streamlined listing process ensures that local businesses can effectively showcase their offerings and
                 reach a wider audience within the Mojokerto community.
             </p>
-            <h3>Seller Dashboard</h3>
-            <div class="grid grid-cols-2 gap-2 mb-2">
-                <img src="/images/projects/mojosadean/tenant1.png" alt="">
-                <img src="/images/projects/mojosadean/tenantorder.png" alt="">
-                <img src="/images/projects/mojosadean/tenantproduct.png" alt="">
-                <img src="/images/projects/mojosadean/tenantstock.png" alt="">
+            <h3 id="seller-dashboard">Seller Dashboard</h3>
+            <div class="screenshot-grid">
+                <a href="../images/projects/mojosadean/tenant1.png" data-lightbox aria-label="Enlarge Mojosadean — Seller Dashboard, screen 1"><img src="../images/projects/mojosadean/tenant1.png" alt="Mojosadean — Seller Dashboard, screen 1" loading="lazy"></a>
+                <a href="../images/projects/mojosadean/tenantorder.png" data-lightbox aria-label="Enlarge Mojosadean — Seller Dashboard, screen 2"><img src="../images/projects/mojosadean/tenantorder.png" alt="Mojosadean — Seller Dashboard, screen 2" loading="lazy"></a>
+                <a href="../images/projects/mojosadean/tenantproduct.png" data-lightbox aria-label="Enlarge Mojosadean — Seller Dashboard, screen 3"><img src="../images/projects/mojosadean/tenantproduct.png" alt="Mojosadean — Seller Dashboard, screen 3" loading="lazy"></a>
+                <a href="../images/projects/mojosadean/tenantstock.png" data-lightbox aria-label="Enlarge Mojosadean — Seller Dashboard, screen 4"><img src="../images/projects/mojosadean/tenantstock.png" alt="Mojosadean — Seller Dashboard, screen 4" loading="lazy"></a>
             </div>
             <p>
                 The Seller Dashboard is a centralized interface designed to help sellers efficiently manage their online
@@ -115,10 +100,10 @@
                 customers.
             </p>
 
-            <h3>Realtime Messaging (Chat)</h3>
-            <div class="grid grid-cols-2 gap-2 mb-2">
-                <img src="/images/projects/mojosadean/chats1.png" alt="">
-                <img src="/images/projects/mojosadean/chats2.png" alt="">
+            <h3 id="realtime-messaging-chat">Realtime Messaging (Chat)</h3>
+            <div class="screenshot-grid">
+                <a href="../images/projects/mojosadean/chats1.png" data-lightbox aria-label="Enlarge Mojosadean — Realtime Messaging (Chat), screen 1"><img src="../images/projects/mojosadean/chats1.png" alt="Mojosadean — Realtime Messaging (Chat), screen 1" loading="lazy"></a>
+                <a href="../images/projects/mojosadean/chats2.png" data-lightbox aria-label="Enlarge Mojosadean — Realtime Messaging (Chat), screen 2"><img src="../images/projects/mojosadean/chats2.png" alt="Mojosadean — Realtime Messaging (Chat), screen 2" loading="lazy"></a>
             </div>
             <p>
                 The realtime messaging (chat) feature enables seamless communication between buyers and sellers directly
@@ -130,9 +115,9 @@
                 conversations as needed throughout the transaction process.
             </p>
 
-            <h3>Mobile Ready (Android)</h3>
-            <div class="grid grid-cols-2 gap-2 mb-2">
-                <img src="/images/projects/mojosadean/mobileready.png" alt="">
+            <h3 id="mobile-ready-android">Mobile Ready (Android)</h3>
+            <div class="screenshot-grid">
+                <a href="../images/projects/mojosadean/mobileready.png" data-lightbox aria-label="Enlarge Mojosadean — Mobile Ready (Android), screen 1"><img src="../images/projects/mojosadean/mobileready.png" alt="Mojosadean — Mobile Ready (Android), screen 1" loading="lazy"></a>
             </div>
             <p>
                 The marketplace application is designed to be mobile-ready, ensuring a seamless user experience on
@@ -144,7 +129,7 @@
                 enhancing accessibility and engagement with the marketplace.
             </p>
 
-            <h2>Web Tech Stack</h2>
+            <h2 id="stack">Built with</h2>
             <p>
                 Mojosadean is developed with a robust and flexible web technology stack tailored for managing product
                 listings, user interactions, and transaction workflows. The frontend is built using
@@ -158,23 +143,11 @@
                 efficiently manage evolving product catalogs, user accounts, and scalable transaction processes
                 for the Mojokerto City Government and its local businesses.
             </p>
+                <ul class="tags case-stack" aria-label="Technology stack"><li>Nuxt.js</li><li>Bootstrap 5</li><li>Express.js</li><li>TypeScript</li><li>MongoDB</li></ul>
+            </article>
         </div>
-        <a href="/"
-            class="bg-black text-white hover:bg-gray-700 font-bold py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105 inline-block mb-4">
-            Back to ME
-        </a>
-
+        <section class="next-project" aria-labelledby="next-project-title"><p class="eyebrow">Keep exploring / Next project</p><a href="./lkpj-prov-jatim.html"><h2 id="next-project-title">E-LKPJ</h2><span class="next-arrow" aria-hidden="true">↗</span></a></section>
     </main>
-
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto text-center px-4">
-            <p>&copy; 2025 Angger Pratamadhita Wibawa. All rights reserved.</p>
-            <span class="text-sm font-light">Build With Tailwind CSS</span>
-        </div>
-    </footer>
-
+    <footer class="site-footer wrap"><p>© <span data-year>2026</span> Angger Pratamadhita Wibawa</p><a href="mailto:anggerpw334@gmail.com">Have a project in mind? Let’s talk ↗</a><a href="#top">Back to top ↑</a></footer>
 </body>
-
 </html>
